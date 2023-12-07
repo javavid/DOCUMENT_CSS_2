@@ -56,3 +56,8 @@ body{
  .grid-item:nth-child(7){
     align-self: start;
  }
+
+ .grid-item:nth-child(9){
+    justify-self: end;
+    align-self: end;
+ }
