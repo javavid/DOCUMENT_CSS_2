@@ -102,9 +102,11 @@ body{
     "aside main main"
     "aside main main"
     "aside main main"
+    "aside main main"
+    "aside main main"
     "footer footer footer";
-    grid-template-rows: repeat(auto-fill,1fr);
-    height: 100vh;
+    grid-template-rows: repeat(auto-fill,minmax(100px,1fr));
+    height: 92vh;
     border: 5px solid #000000;
 }
 
